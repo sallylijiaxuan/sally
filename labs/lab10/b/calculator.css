@@ -1,0 +1,31 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    margin: auto;
+    text-align: center;
+    font-size: calc(2px + 2vw);
+    font-family: monospace;
+    background-color: beige;
+}
+
+#type {
+    margin: 2%;
+}
+
+label {
+    display: block;
+    padding: 3%;
+    color: saddlebrown;
+}
+
+button {
+    background-color: saddlebrown;
+    color: white;
+    border: #EEEEEE 1px solid;
+    margin: 0.5%;
+    padding: 1%;
+    font-family: sans-serif;
+}

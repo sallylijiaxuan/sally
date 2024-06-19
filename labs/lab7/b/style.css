@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    width: 80vw;
+    height: 100vh;
+    margin: auto;
+    background-color: bisque;
+}
+
+#container {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 50%;
+}
+
+#one {
+    background-image: url("src/the-one-where-it-all-began.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 2%;
+    width: 25%;
+    height: 75%;
+    margin: 5% 0;
+    rotate: -7deg;
+}
+
+#two {
+    background-image: url("src/the-one-with-all-the-thanksgivings.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 26%;
+    width: 25%;
+    height: 75%;
+    margin: 5% 0;
+    rotate: 10deg;
+}
+
+#three {
+    background-image: url("src/the-one-that-could-have-been.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 48%;
+    width: 25%;
+    height: 75%;
+    margin: 5% 0;
+    rotate: -5deg;
+}
+
+#four {
+    background-image: url("src/the-last-one.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: absolute;
+    left: 73%;
+    width: 25%;
+    height: 75%;
+    margin: 5% 0;
+    rotate: 8deg;
+}
+
+#container h3 {
+    opacity: 0;
+    transition: opacity 1s;
+    background-color: rgba(255, 255, 255, 0.6);
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    padding-top: 2%;
+    font-family: cursive, sans-serif;
+    font-size: calc(2px + 1vw);
+    color: black;
+}
+
+#one:hover {
+    z-index: 2;
+}
+
+#two:hover {
+    z-index: 3;
+}
+
+#three:hover {
+    z-index: 4;
+}
+
+#four:hover {
+    z-index: 5;
+}
+
+#one:hover h3{
+    opacity: 1;
+}
+
+#two:hover h3{
+    opacity: 1;
+}
+
+#three:hover h3{
+    opacity: 1;
+}
+
+#four:hover h3{
+    opacity: 1;
+}

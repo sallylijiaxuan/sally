@@ -1,0 +1,83 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+#page-wrapper {
+    width: 500px;
+    margin: auto;
+}
+
+p {
+    background-color: #FFBF78;
+    color: #FEFFD2;
+}
+
+.title {
+    text-transform: lowercase;
+    color: #FF7D29;
+}
+
+#firstul {
+    border: #FFEEA9 solid 5px;
+}
+
+ol {
+    margin: 5px;
+}
+
+#o1 {
+    background-color: #C40C0C;
+}
+
+#o2 {
+    background-color: #FF6500;
+}
+
+#o3 {
+    background-color: #FF8A08;
+}
+
+#o4 {
+    background-color: #FFC100;
+}
+
+#o5 {
+    background-color: #FFBF78;
+}
+
+#o6 {
+    background-color: #FFEEA9;
+}
+
+#o7 {
+    background-color: #FEFFD2;
+}
+
+#u1 {
+    color: #8E3200;
+}
+
+#u2 {
+    color: #A64B2A;
+}
+
+#u3 {
+    color: #DD5746;
+}
+
+#u4 {
+    color: #8B322C;
+}
+
+#u5 {
+    color: #A79277;
+}
+
+#u6 {
+    color: #FFC470;
+}
+
+.word {
+    color: #3ABEF9;
+}

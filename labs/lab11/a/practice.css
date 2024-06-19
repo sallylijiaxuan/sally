@@ -1,0 +1,17 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 90%;
+    height: 90%;
+    padding: 5% 0;
+    margin: auto;
+    text-align: center;
+}
+
+button {
+    font-family: cursive;
+    font-size: calc(2px + 1vw);
+}

@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="description" content="calculator">
+        <link rel="stylesheet" type="text/css" href="calculator.css">
+        <title>lab8a | cs103</title>
+    </head>
+
+    <body>
+        <div id="type">
+            <label for="first">First Number: </label><input id="first">
+            <label for="second">Second Number: </label><input id="second">
+        </div>
+        <div id="buttons">
+            <button onclick="addition()">+</button>
+            <button onclick="subtraction()">-</button>
+            <button onclick="multiplication()">*</button>
+            <button onclick="division()">/</button>
+            <button onclick="power()">^</button>
+            <button onclick="erase()">clear</button>
+        </div>
+        <h3 id="output"></h3>
+
+        <script src="calculator.js"></script>
+    </body>
+</html>

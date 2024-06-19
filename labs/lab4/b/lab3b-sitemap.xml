@@ -1,0 +1,23 @@
+<?xml version="1,0" encoding="UTF-8" ?>
+<urlset schemaLocation="https://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+        <loc>another-resume.html</loc>
+        <lastmod>2024-05-21</lastmod>
+    </url>
+    <url>
+        <loc>resume-activities.html</loc>
+        <lastmod>2024-05-21</lastmod>
+    </url>
+    <url>
+        <loc>resume-credits.html</loc>
+        <lastmod>2024-05-21</lastmod>
+    </url>
+    <url>
+        <loc>resume-education.html</loc>
+        <lastmod>2024-05-21</lastmod>
+    </url>
+    <url>
+        <loc>resume-experiences.html</loc>
+        <lastmod>2024-05-21</lastmod>
+    </url>
+</urlset>

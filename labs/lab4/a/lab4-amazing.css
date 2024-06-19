@@ -1,0 +1,45 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 80%;
+    margin: auto;
+    /*background-color: forestgreen;*/
+    text-align: center;
+}
+
+header{
+    background-color: saddlebrown;
+}
+
+header h1 {
+    color: yellow;
+}
+
+nav{
+    background-color: darkgrey;
+}
+
+nav ul{
+    padding-left: 0;
+}
+
+nav li{
+    display: inline;
+}
+
+main{
+    background-color: burlywood;
+    height: 100vh;
+}
+
+main p{
+    color: chocolate;
+    border: dotted black 3px;
+}
+
+footer{
+    background-color: darkgrey;
+}

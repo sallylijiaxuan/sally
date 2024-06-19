@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    box-sizing: border-box;
+}
+
+div{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+    font-size: calc(2px + 2vw);
+}
+
+header{
+    background-color: saddlebrown;
+    padding: 2%;
+}
+
+header h1 {
+    color: yellow;
+}
+
+nav{
+    background-color: darkgrey;
+    padding: 2%;
+}
+
+nav ul{
+    padding-left: 0;
+}
+
+nav li {
+    display: inline;
+    margin: 2%;
+    padding: 1%;
+    text-align: center;
+    border: saddlebrown solid 3px;
+}
+
+nav a {
+    color: yellow;
+    text-decoration: none;
+}
+
+main{
+    background-color: burlywood;
+    height: 100vh;
+}
+
+main p{
+    color: chocolate;
+    padding: 2%;
+    border: dotted black 3px;
+}
+
+img {
+    max-width: 80%;
+}
+
+footer{
+    background-color: darkgrey;
+}
