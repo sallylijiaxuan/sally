@@ -18,12 +18,20 @@ async function initMap() {
             title: "MGM-Music-Hall-at-Fenway",
         },
         {
-            position: { lat: 42.3651, lng: -71.0589 },
-            title: "city winery boston",
+            position: { lat: 42.0629, lng: -71.2394 },
+            title: "Xfinity Center in Mansfield",
         },
         {
-            position: { lat: 42.090944, lng: -71.264344 },
-            title: "Gillette Stadium in Foxborough",
+            position: { lat: 42.366316, lng: -71.062018 },
+            title: "TD Garden",
+        },
+        {
+            position: { lat: 42.351326, lng: -71.116252 },
+            title: "Agganis Arena",
+        },
+        {
+            position: { lat: 42.349689, lng: -71.036011 },
+            title: "Leader Bank Pavilion in Boston",
         },
     ];
     // Create an info window to share between markers.

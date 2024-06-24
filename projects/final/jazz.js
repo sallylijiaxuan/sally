@@ -14,16 +14,20 @@ async function initMap() {
     // between markers; press tab again to cycle through the map controls.
     const concerts = [
         {
-            position: { lat: 42.346394, lng: -71.096014 },
-            title: "MGM-Music-Hall-at-Fenway",
+            position: { lat: 42.373175, lng: -71.101616 },
+            title: "1353 Cambridge St",
         },
         {
-            position: { lat: 42.3651, lng: -71.0589 },
-            title: "city winery boston",
+            position: { lat: 42.365488, lng: -71.062017 },
+            title: "The West End Museum",
         },
         {
-            position: { lat: 42.090944, lng: -71.264344 },
-            title: "Gillette Stadium in Foxborough",
+            position: { lat: 42.389100, lng: -71.105902 },
+            title: "191 Highland Avenue",
+        },
+        {
+            position: { lat: 41.958405, lng:-70.664239 },
+            title: "25 1/2 Court St",
         },
     ];
     // Create an info window to share between markers.

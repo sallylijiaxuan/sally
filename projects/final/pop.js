@@ -9,27 +9,27 @@ async function initMap() {
         center: { lat: 42.349903, lng: -71.100293 },
         mapId: "concerts",
     });
-    // Set LatLng and title text for the markers. The first marker (Boynton Pass)
-    // receives the initial focus when tab is pressed. Use arrow keys to move
-    // between markers; press tab again to cycle through the map controls.
+
     const concerts = [
         {
-            position: { lat: 42.346394, lng: -71.096014 },
-            title: "MGM-Music-Hall-at-Fenway",
+            position: { lat: 42.346676, lng: -71.097218 },
+            title: "Fenway park",
         },
         {
-            position: { lat: 42.3651, lng: -71.0589 },
-            title: "city winery boston",
+            position: { lat:42.387702 , lng: -70.996935 },
+            title: "The Stage at Suffolk Downs",
         },
         {
-            position: { lat: 42.090944, lng: -71.264344 },
-            title: "Gillette Stadium in Foxborough",
+            position: { lat: 42.366316, lng: -71.062018 },
+            title: "TD Garden",
+        },
+        {
+            position: { lat: 42.349689, lng: -71.036011 },
+            title: "Leader Bank Pavilion in Boston",
         },
     ];
-    // Create an info window to share between markers.
     const infoWindow = new InfoWindow();
 
-    // Create the markers.
     concerts.forEach(({ position, title }, i) => {
         const pin = new PinElement({
             glyph: `${i + 1}`,
@@ -43,7 +43,6 @@ async function initMap() {
             gmpClickable: true,
         });
 
-        // Add a click listener for each marker, and set up the info window.
         marker.addListener("click", ({ domEvent, latLng }) => {
             const { target } = domEvent;
 

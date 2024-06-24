@@ -1,0 +1,161 @@
+*{
+    margin:auto;
+    box-sizing: border-box;
+}
+
+header{
+    margin: auto;
+    padding: 5% 0;
+    color:white;
+    background-color: #102c57;
+}
+
+footer{
+    background-color: #ffcbcb
+}
+
+#page-wrapper{
+    width: 80vw;
+    margin: auto;
+    text-align: center;
+}
+
+main{
+    margin: auto;
+    padding: 3%;
+    background-color: #ffb1b1;
+    height: 500vh;
+    font-size: calc(2px + 1.5vw);
+}
+
+
+nav{
+    padding: 5% 2%;
+    margin:0;
+    background-color: #1679ab;
+    width:30%;
+}
+
+
+nav ul{
+    display:flex;
+    flex-direction:column;
+    justify-content: space-around;
+    list-style: none;
+    padding-left:0;
+    align-items: center;
+}
+
+nav a{
+    font-size: calc(2px + 1.5vw);
+
+}
+
+nav li{
+    padding: 3%;
+    border: #ffcbcb 3px solid;
+    margin: 5% 3%;
+    width: 80%;
+    font-size:calc(2px + 1.5vw)
+}
+
+/* This makes the text color of the hover black
+/*main p {*/
+/*    color: black;*/
+/*}*/
+
+#container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+main{width:70%}
+
+@media screen and (max-width: 750px){
+    #container{
+        display:flex;
+        flex-direction:column;
+        justify-content: space-between;
+    }
+    nav{width:100%;}
+    main{width:100%}
+    nav ul{
+        flex-direction:row;
+    }
+
+    nav li{
+        padding: 1%;
+    }
+}
+
+.images-key-figures{
+    width:45%;
+    margin: auto;
+    padding:1%;
+}
+.key-one{
+    background-image: url(src/Beyonce.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.key-two{
+    background-image: url(src/Britney-Spears.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.key-three{
+    background-image: url(src/Taylor-Swift.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.key-four{
+    background-image: url(src/The-beatles.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.key-five{
+    background-image: url(src/Michael-Jackson.jpg);
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+.text{
+    color:white;
+    text-align:center;
+    margin:0;
+    padding:5vh;
+    font-family:cursive;
+    background-color:rgba(0,0,0,.5);
+}
+.text{
+    transition:opacity 1s linear;
+}
+.text{
+    opacity:0;
+}
+.key-one:hover .text{
+    opacity:1;
+}
+.key-two:hover .text{
+    opacity:1;
+}
+.key-three:hover .text{
+    opacity:1;
+}
+.key-four:hover .text{
+    opacity:1;
+}
+.key-five:hover .text{
+    opacity:1;
+}
+
+#map {
+    height: 450px;
+    width: 80%;
+    margin-left:10%;
+}
