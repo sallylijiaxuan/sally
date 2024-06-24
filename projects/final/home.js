@@ -12,24 +12,10 @@ new TypeIt("#type2", {
 }).go();
 
 // add scroll reveal effect for the whole webpage
-ScrollReveal().reveal('.headline')
-ScrollReveal().reveal('.tagline', { delay: 500 })
-ScrollReveal().reveal('.punchline', { delay: 2000 })
+// ScrollReveal().reveal('.headline')
+// ScrollReveal().reveal('.tagline', { delay: 500 })
+// ScrollReveal().reveal('.punchline', { delay: 2000 })
 
-fetch("https://raw.githubusercontent.com/KoreanThinker/billboard-json/main/billboard-hot-100/recent.json")
-    .then(response => {
-        if (response.ok) {
-            return response.json();
-        } else {
-            throw new Error ("API request failed");
-        }
-    })
-    .then(data => {
-        console.log(data);
-    })
-    .catch(error => {
-        console.error(error);
-    })
 
 ScrollReveal().reveal('.tile', {
     interval: 100,
