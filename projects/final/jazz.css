@@ -8,6 +8,7 @@ header{
     padding: 5% 0;
     color:white;
     background-color: #102c57;
+    /*font-family:  'Courier', monospace;*/
 }
 
 footer{
@@ -30,16 +31,15 @@ main{
 
 
 nav{
-    padding: 5% 2%;
+    padding: 0;
     margin:0;
     background-color: #1679ab;
-    width:30%;
 }
 
 
 nav ul{
     display:flex;
-    flex-direction:column;
+    flex-direction: row;
     justify-content: space-around;
     list-style: none;
     padding-left:0;
@@ -59,18 +59,15 @@ nav li{
     font-size:calc(2px + 1.5vw)
 }
 
-/* This makes the text color of the hover black
-/*main p {*/
-/*    color: black;*/
-/*}*/
-
 #container{
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-main{width:70%}
+main{
+    /*width:70%;*/
+}
 
 @media screen and (max-width: 750px){
     #container{
