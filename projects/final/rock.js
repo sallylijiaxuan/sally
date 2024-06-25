@@ -63,3 +63,12 @@ async function initMap() {
 }
 
 initMap();
+
+
+new TypeIt("#type1", {
+    strings: ["ROCK N ROLL 🤘",
+    "The powerful riffs, rebellious lyrics, and iconic performances",
+    "have consistently pushed the boundaries of what music can be."],
+    speed: 50,
+    waitUntilVisible: true,
+}).go();

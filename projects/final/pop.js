@@ -54,3 +54,10 @@ async function initMap() {
 }
 
 initMap();
+
+new TypeIt("#type1", {
+    strings: ["With its catchy melodies, unforgettable lyrics, and iconic performances,",
+    "pop music creates the soundtrack of our lives."],
+    speed: 50,
+    waitUntilVisible: true,
+}).go();

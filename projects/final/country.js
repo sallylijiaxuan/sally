@@ -55,3 +55,10 @@ async function initMap() {
 }
 
 initMap();
+
+new TypeIt("#type1", {
+    strings: ["...storytelling, heartfelt lyrics, timeless melodies...",
+    "This is where songs become stories, and stories find their home."],
+    speed: 50,
+    waitUntilVisible: true,
+}).go();

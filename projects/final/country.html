@@ -9,29 +9,27 @@
 <body>
 <div id="page-wrapper">
     <header>
-        <h1>Country</h1>
-        <p>
-            Step into the heartwarming and soulful world of country music, where storytelling, heartfelt lyrics,
-            and timeless melodies create a unique musical experience. From the traditional sounds of Hank Williams
-            and Patsy Cline to the modern hits of Carrie Underwood and Keith Urban, country music has a rich history
-            that reflects the cultural and social fabric of its time. Join us as we delve into the history,
-            evolution, and influential artists of country music, celebrating a genre that continues to resonate
-            with listeners around the world.
-        </p>
-    </header>
-    <div id="container">
+        <div id="intro">
+            <a href="country.html"><img src="src/country-symbol-small.webp" alt="country symbol"></a>
+            <h1 id="title">Country</h1>
+            <p id="type1"></p>
+        </div>
+
         <nav>
             <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="jazz.css">Jazz</a></li>
-                <li><a href="pop.html">POP</a></li>
-                <li><a href="rock.html">Rock</a></li>
-                <li><a href="country.html">Country</a></li>
+                <li><a href="home.html"><img src="src/home-icon.png" alt="home symbol"></a></li>
+                <li><a href="jazz.html"><img src="src/jazz-symbol-small.png.webp" alt="jazz symbol"></a></li>
+                <li><a href="pop.html"><img src="src/pop-symbol-small.webp" alt="pop symbol"></a></li>
+                <li><a href="rock.html"><img src="src/rock-symbol-small.webp" alt="rock symbol"></a></li>
             </ul>
         </nav>
+    </header>
+
+    <div id="container">
 
         <main>
-            <h1>History</h1>
+            <div id="block1">
+            <h3>History</h3>
             <ul>
                 <li>
                     <strong> Origins (Early 20th Century): </strong>Country music originated in the early 20th century in the rural Southern United States, drawing from folk, Western, and blues traditions. Early pioneers like Jimmie Rodgers and the Carter Family laid the foundation with their simple, heartfelt songs.
@@ -42,7 +40,7 @@
                 </li>
 
                 <li>
-                    <strong>1960s:</strong>Nashville Sound and Outlaw Country: The 1960s introduced the Nashville Sound, characterized by smooth productions and orchestral arrangements, with artists like Patsy Cline and Jim Reeves. At the same time, the outlaw country movement, led by Willie Nelson and Waylon Jennings, rebelled against the polished Nashville sound, embracing a grittier, more authentic style.
+                    <strong>1960s:</strong> Nashville Sound and Outlaw Country: The 1960s introduced the Nashville Sound, characterized by smooth productions and orchestral arrangements, with artists like Patsy Cline and Jim Reeves. At the same time, the outlaw country movement, led by Willie Nelson and Waylon Jennings, rebelled against the polished Nashville sound, embracing a grittier, more authentic style.
                 </li>
 
                 <li>
@@ -61,9 +59,12 @@
                     <strong> 2000s-Present: </strong> Contemporary Country and Bro-Country: The 2000s and beyond have seen the rise of contemporary country, with artists like Carrie Underwood, Keith Urban, and Luke Bryan blending traditional country with modern pop and rock elements. Bro-country, a subgenre characterized by party-themed lyrics and hip-hop influences, also gained popularity with artists like Florida Georgia Line and Jason Aldean.
                 </li>
             </ul>
+            </div>
 
+            <div id="block2">
             <h3>Key Figures</h3>
             <div class="images-key-figures">
+                <div class="line-break">
                 <div class="key-one">
                     <div class="text">
                         <p>Johnny Cash</p>
@@ -85,6 +86,8 @@
                             Road Again."</p>
                     </div>
                 </div>
+                </div>
+                <div class="line-break">
                 <div class="key-four">
                     <div class="text">
                         <p>Garth Brooks</p>
@@ -99,9 +102,11 @@
                             like "Man! I Feel Like a Woman!"</p>
                     </div>
                 </div>
+                </div>
+            </div>
             </div>
 
-
+            <div id="block3">
             <h3>Concert Calendar</h3>
             <ul>
                 <li>
@@ -128,7 +133,9 @@
             </ul>
 
             <div id="map"></div>
+            </div>
 
+            <div id="block4">
             <h3>Editor's pick</h3>
             <ul>
                 <li>
@@ -152,6 +159,7 @@
                                  encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </li>
             </ul>
+            </div>
 
         </main>
 
@@ -159,10 +167,13 @@
     <footer>
         <p>&#169; <a href="credits.html">Credits</a></p>
     </footer>
-    <script defer src="country.js"></script>
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcICkvhVwpCFUhzjqeDv6aXAj4InnAiDs&callback=initMap"></script>
 
 </div>
+<!--source code for typeit()-->
+<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+<script defer src="country.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcICkvhVwpCFUhzjqeDv6aXAj4InnAiDs&callback=initMap"></script>
+
 
 </body>
 </html>

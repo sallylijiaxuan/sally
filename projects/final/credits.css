@@ -1,96 +1,280 @@
-*{
-    margin:auto;
+* {
+    margin: auto;
     box-sizing: border-box;
 }
 
-header{
-    margin: auto;
-    padding: 5% 0;
-    color:white;
+header {
+    margin: 1% auto;
+    color: white;
     background-color: #102c57;
+    text-decoration: none;
+    font-size: calc(2px + 6vw);
+    line-height: 1.5;
+    padding: 17% 0;
+    font-family:  'Courier', monospace;
 }
 
-footer{
-    background-color: #ffcbcb
+nav {
+    padding: 0;
+    margin: 0;
+    background-color: rgba(22, 121, 171, 0.5);
 }
 
-#page-wrapper{
-    width: 80vw;
+
+nav ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    list-style: none;
+    padding-left: 0;
+    align-items: center;
+}
+
+nav a {
+    font-size: calc(2px + 1.5vw);
+
+}
+
+nav li {
+    padding: 2%;
+    /*border: #ffcbcb 3px solid;*/
+    margin: 2%;
+    width: 80%;
+    font-size: calc(2px + 1.5vw)
+}
+
+#page-wrapper {
     margin: auto;
     text-align: center;
 }
 
-main{
+main {
     margin: auto;
     padding: 3%;
     background-color: #ffb1b1;
-    height: 500vh;
+    height: 1000vh;
     font-size: calc(2px + 1.5vw);
 }
 
-
-nav{
-    padding: 5% 2%;
-    margin:0;
-    background-color: #1679ab;
-    width:30%;
-}
-
-
-nav ul{
-    display:flex;
-    flex-direction:column;
-    justify-content: space-around;
-    list-style: none;
-    padding-left:0;
-    align-items: center;
-}
-
-nav a{
-    font-size: calc(2px + 1.5vw);
-
-}
-
-nav li{
-    padding: 3%;
-    border: #ffcbcb 3px solid;
-    margin: 5% 3%;
-    width: 80%;
-    font-size:calc(2px + 1.5vw)
-}
-
-/* This makes the text color of the hover black
-/*main p {*/
-/*    color: black;*/
-/*}*/
-
-#container{
+#container {
     display: flex;
     flex-direction: row;
     width: 100%;
 }
 
-main{width:70%}
-
-@media screen and (max-width: 750px){
-    #container{
-        display:flex;
-        flex-direction:column;
-        justify-content: space-between;
-    }
-    nav{width:100%;}
-    main{width:100%}
-    nav ul{
-        flex-direction:row;
-    }
-
-    nav li{
-        padding: 1%;
-    }
+h3 {
+    padding: 2%;
+    font-family:  'Courier', monospace;
+    background-color: rgba(89, 197, 247, 0.5);
+    text-align: center;
 }
 
-.images-key-figures{
-    width:45%;
-    margin: auto;
-    padding:1%;
+/*block1: history*/
+
+#block1 {
+    margin: 2%;
+    text-align: left;
+}
+
+#block1 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#block1 li {
+    margin: 1% 0;
+    position: relative;
+    line-height: 1.5;
+    background-color: rgba(22, 121, 171, 0.5);
+    padding: 2%;
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+#block1 li:hover {
+    color: #102c57;
+    background-color: #ffcbcb;
+    transform: scale(1.1);
+}
+
+/*block2: key figures*/
+
+.text {
+    color: white;
+    text-align: center;
+    margin: 5%;
+    padding: 30% 0;
+    font-family: 'Courier', monospace;
+    background-color: rgba(0, 0, 0, .5);
+    transition: opacity 1s linear;
+    opacity: 0;
+}
+
+.images-key-figures {
+    /*margin: 2%;*/
+}
+
+.line-break {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 1% auto;
+}
+
+.key-one {
+    background-image: url(src/Louis-Armstrong.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 30%;
+    border-radius: 1rem;
+}
+
+.key-two {
+    background-image: url(src/Duke-Alington.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 30%;
+    border-radius: 1rem;
+}
+
+.key-three {
+    background-image: url(src/Charlie-Parker.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 35%;
+    border-radius: 1rem;
+}
+
+.key-four {
+    background-image: url(src/Miles-Davis.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 30%;
+    border-radius: 1rem;
+}
+
+.key-five {
+    background-image: url(src/John-coltrane.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-width: 39%;
+    border-radius: 1rem;
+}
+
+.key-one:hover .text {
+    opacity: 1;
+}
+
+.key-two:hover .text {
+    opacity: 1;
+}
+
+.key-three:hover .text {
+    opacity: 1;
+}
+
+.key-four:hover .text {
+    opacity: 1;
+}
+
+.key-five:hover .text {
+    opacity: 1;
+}
+
+/*block3: concerts*/
+
+#block3 {
+    margin: 2%;
+    text-align: left;
+}
+
+#block3 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#block3 li {
+    margin: 1% 0;
+    position: relative;
+    line-height: 1.5;
+    background-color: rgba(22, 121, 171, 0.5);
+    padding: 2%;
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out;
+}
+
+#block3 li:hover {
+    color: #102c57;
+    background-color: #ffcbcb;
+    transform: scale(1.1);
+}
+
+#map {
+    height: 450px;
+    width: 90%;
+    margin: 2% auto;
+}
+
+/*block4: editors pick*/
+
+#block4 {
+    margin: 2%;
+    text-align: left;
+}
+
+#block4 ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+#block4 li {
+    margin: 1% 0;
+    position: relative;
+    line-height: 1.5;
+    background-color: rgba(22, 121, 171, 0.5);
+    padding: 2%;
+    border-radius: 1rem;
+    transition: transform 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#block4 li:hover {
+    color: #102c57;
+    background-color: #ffcbcb;
+    transform: scale(1.1);
+}
+
+footer {
+    background-color: #ffcbcb
+}
+
+@media screen and (max-width: 750px) {
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    nav {
+        width: 100%;
+    }
+
+    main {
+        width: 100%
+    }
+
+    nav ul {
+        flex-direction: row;
+    }
+
+    nav li {
+        padding: 1%;
+    }
 }

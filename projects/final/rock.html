@@ -9,34 +9,28 @@
 
 <body>
 <div id="page-wrapper">
-
     <header>
-        <h1>Rock</h1>
-        <p>
-            Step into the electrifying world of rock music, where powerful riffs, rebellious lyrics, and iconic
-            performances
-            have shaped generations and influenced countless artists across genres. From the pioneering sounds of Chuck
-            Berry and
-            Elvis Presley to the arena-filling anthems of Led Zeppelin and Queen, rock music has consistently pushed the
-            boundaries
-            of what music can be. Join us as we explore the history, evolution, and influential artists of rock music,
-            celebrating
-            a genre that continues to captivate and inspire audiences around the globe.
-        </p>
+        <div id="intro">
+            <a href="rock.html"><img src="src/rock-symbol-small.webp" alt="rock symbol"></a>
+            <h1 id="title">Rock</h1>
+            <p id="type1"></p>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="home.html"><img src="src/home-icon.png" alt="home symbol"></a></li>
+                <li><a href="jazz.html"><img src="src/jazz-symbol-small.png.webp" alt="jazz symbol"></a></li>
+                <li><a href="pop.html"><img src="src/pop-symbol-small.webp" alt="pop symbol"></a></li>
+                <li><a href="country.html"><img src="src/country-symbol-small.webp" alt="country symbol"></a></li>
+            </ul>
+        </nav>
     </header>
 
     <div id="container">
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="jazz.html">Jazz</a></li>
-                <li><a href="pop.html">POP</a></li>
-                <li><a href="rock.html">Rock</a></li>
-                <li><a href="country.html">Country</a></li>
-            </ul>
-        </nav>
+
 
         <main>
+            <div id="block1">
             <h3>History</h3>
             <ul>
                 <li>
@@ -80,10 +74,12 @@
                     and streaming, with new artists gaining popularity through platforms like Spotify and YouTube.
                 </li>
             </ul>
-            <br>
+            </div>
 
+            <div id="block2">
             <h3>Key Figures</h3>
             <div class="images-key-figures">
+                <div class="line-break">
                 <div class="key-one">
                     <div class="text">
                         <p>Chuck Berry</p>
@@ -105,6 +101,8 @@
                             impact, reshaping the music industry.</p>
                     </div>
                 </div>
+                </div>
+                <div class="line-break">
                 <div class="key-four">
                     <div class="text">
                         <p>Led Zeppelin</p>
@@ -119,8 +117,11 @@
                             influencing a generation of musicians.</p>
                     </div>
                 </div>
+                </div>
             </div>
-            <br>
+            </div>
+
+            <div id="block3">
             <h3>Concerts calendar</h3>
             <ul>
                 <li>
@@ -145,7 +146,9 @@
                 </li>
             </ul>
             <div id="map"></div>
-            <br>
+            </div>
+
+            <div id="block4">
             <h3>Editor's pick</h3>
             <ul>
                 <li>Nirvana - Smells Like Teen Spirit
@@ -171,15 +174,19 @@
                             allowfullscreen></iframe>
                 </li>
             </ul>
+            </div>
 
         </main>
     </div>
     <footer>
         <p>&#169; <a href="credits.html">Credits</a></p>
     </footer>
-    <script defer src="rock.js"></script>
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcICkvhVwpCFUhzjqeDv6aXAj4InnAiDs&callback=initMap"></script>
 
 </div>
+<!--source code for typeit()-->
+<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+<script defer src="rock.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcICkvhVwpCFUhzjqeDv6aXAj4InnAiDs&callback=initMap"></script>
+
 </body>
 </html>

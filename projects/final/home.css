@@ -25,14 +25,14 @@ header #title {
 }
 
 header #intro {
-    padding: 17% 0;
+    padding: 20% 0;
     font-family:  'Courier', monospace;
 }
 
 nav {
     padding: 0;
     margin: 0;
-    /*width: 20%;*/
+    background-color: rgba(22, 121, 171, 0.5);
 }
 
 nav ul {
@@ -45,7 +45,6 @@ nav ul {
 }
 
 nav a {
-    color: white;
     font-size: calc(2px + 1.5vw);
 }
 
@@ -67,8 +66,9 @@ main {
     margin: auto;
     padding: 0 1%;
     background-color: #1679ab;
-    height: 1000vh;
-    font-size: calc(2px + 1.5vw);
+    height: 500vh;
+    font-size: calc(2px + 1vw);
+    line-height: 1.5;
 }
 
 #container {
@@ -77,10 +77,6 @@ main {
     width: 100%;
 }
 
-/*main {*/
-/*    width: 80%*/
-/*}*/
-
 main p {
     color: black;
     font-family:  'Courier', monospace;
@@ -88,7 +84,53 @@ main p {
 
 #type2 {
     text-align: left;
-    padding: 2%;
+    padding: 0;
+    width: 20%;
+    color: white;
+}
+
+#first-block {
+    display: flex;
+    flex-direction: row;
+    padding: 1%;
+}
+
+#second-block {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+#pic1 {
+    position: absolute;
+    top: 10vh;
+    left: 5vw;
+    rotate: 5deg;
+    max-width: 5%;
+}
+
+#pic2 {
+    position: absolute;
+    top: 20vh;
+    left: 8vw;
+    rotate: -10deg;
+    max-width: 5%;
+}
+
+#pic3 {
+    position: absolute;
+    top: 15vh;
+    left: 14vw;
+    rotate: -7deg;
+    max-width: 5%;
+}
+
+#type3 {
+    padding: 20% 0;
+    text-align: center;
+    color: white;
 }
 
 .tile {

@@ -59,3 +59,11 @@ async function initMap() {
 }
 
 initMap();
+
+new TypeIt("#type1", {
+    strings: ["Jazz is more than just music.",
+    "It's a dynamic, ever-evolving art form that has influenced countless other genres",
+    "and touched the hearts of millions around the globe."],
+    speed: 50,
+    waitUntilVisible: true,
+}).go();

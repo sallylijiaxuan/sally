@@ -10,29 +10,26 @@
 <body>
 <div id="page-wrapper">
     <header>
-        <h1>Pop</h1>
-        <p>
-            Step into the exciting and ever-evolving realm of pop music, where catchy melodies,
-            unforgettable lyrics, and iconic performances come together to create the soundtrack of our lives.
-            From the pioneering sounds of Elvis Presley and The Beatles to the modern-day anthems of
-            Taylor Swift and Beyoncé, pop music has consistently shaped and reflected our culture.
-            Join us as we celebrate the history, evolution, and influential artists of pop music,
-            exploring how this dynamic genre continues to captivate audiences around the globe.
-        </p>
+        <div id="intro">
+            <a href="pop.html"><img src="src/pop-symbol-small.webp" alt="pop symbol"></a>
+            <h1 id="title">Pop</h1>
+            <p id="type1"></p>
+        </div>
+
+        <nav>
+            <ul>
+                <li><a href="home.html"><img src="src/home-icon.png" alt="home symbol"></a></li>
+                <li><a href="jazz.html"><img src="src/jazz-symbol-small.png.webp" alt="jazz symbol"></a></li>
+                <li><a href="rock.html"><img src="src/rock-symbol-small.webp" alt="rock symbol"></a></li>
+                <li><a href="country.html"><img src="src/country-symbol-small.webp" alt="country symbol"></a></li>
+            </ul>
+        </nav>
     </header>
 
     <div id="container">
-        <nav>
-            <ul>
-                <li><a href="home.html">Home</a></li>
-                <li><a href="jazz.html">Jazz</a></li>
-                <li><a href="pop.html">Pop</a></li>
-                <li><a href="rock.html">Rock</a></li>
-                <li><a href="country.html">Country</a></li>
-            </ul>
-        </nav>
 
         <main>
+            <div id="block1">
             <h3>History</h3>
             <ul>
                 <li>
@@ -91,41 +88,49 @@
                     global phenomenon, reflecting the increasingly interconnected nature of the music industry.
                 </li>
             </ul>
+            </div>
+
+            <div id="block2">
             <h3>Key Figures</h3>
             <div class="images-key-figures">
+                <div class="line-break">
                 <div class="key-one">
                     <div class="text">
-                        <p>Beyoncé</p>
+                        <p>Beyoncé</p><br>
                         <p>Renowned for her powerful voice and dynamic performances, a defining figure in modern pop with significant cultural impact.</p>
                     </div>
                 </div>
                 <div class="key-two">
                     <div class="text">
-                        <p>Britney Spears</p>
+                        <p>Britney Spears</p><br>
                         <p>Pop sensation of the late 1990s and early 2000s, known for hits like "...Baby One More Time" and "Toxic," influencing pop music and culture.</p>
                     </div>
                 </div>
                 <div class="key-three">
                     <div class="text">
-                        <p>Taylor Swift</p>
+                        <p>Taylor Swift</p><br>
                         <p>Started in country music and transitioned to pop, known for narrative songwriting and versatility, becoming one of the best-selling artists.</p>
                     </div>
                 </div>
+                </div>
+                <div class="line-break">
                 <div class="key-four">
                     <div class="text">
-                        <p>The Beatles</p>
+                        <p>The Beatles</p><br>
                         <p>Revolutionized pop music in the 1960s with innovative songwriting and cultural impact, reshaping the music industry.</p>
                     </div>
                 </div>
                 <div class="key-five">
                     <div class="text">
-                        <p>Michael Jackson</p>
+                        <p>Michael Jackson</p><br>
                         <p>King of Pop, known for groundbreaking albums like "Thriller," and iconic performances that set new standards for music and dance.</p>
                     </div>
                 </div>
+                </div>
+            </div>
             </div>
 
-
+            <div id="block3">
             <h3>Concert Calendar</h3>
             <ul>
                 <li>
@@ -156,7 +161,9 @@
             </ul>
 
             <div id="map"></div>
+            </div>
 
+            <div id="block4">
             <h3>Editor's Pick</h3>
             <ul>
                 <li>
@@ -181,6 +188,7 @@
                             referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
                 </li>
             </ul>
+            </div>
 
         </main>
     </div>
@@ -188,10 +196,12 @@
     <footer>
         <p>&#169; <a href="credits.html">Credits</a></p>
     </footer>
-    <script defer src="pop.js"></script>
-    <script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcICkvhVwpCFUhzjqeDv6aXAj4InnAiDs&callback=initMap"></script>
-
 </div>
+
+<!--source code for typeit()-->
+<script src="https://unpkg.com/typeit@8.7.1/dist/index.umd.js"></script>
+<script defer src="pop.js"></script>
+<script defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCcICkvhVwpCFUhzjqeDv6aXAj4InnAiDs&callback=initMap"></script>
 
 </body>
 </html>
