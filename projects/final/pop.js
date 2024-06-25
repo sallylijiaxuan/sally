@@ -1,3 +1,5 @@
+// Seunghyeok Lim, limsh@bu.edu
+
 async function initMap() {
     // Request needed libraries.
     const { Map, InfoWindow } = await google.maps.importLibrary("maps");
@@ -54,6 +56,8 @@ async function initMap() {
 }
 
 initMap();
+
+// sally li (jiaxuanl@bu.edu)
 
 new TypeIt("#type1", {
     strings: ["With its catchy melodies, unforgettable lyrics, and iconic performances,",

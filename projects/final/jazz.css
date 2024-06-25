@@ -83,6 +83,7 @@ h3 {
 }
 
 /*block1: history*/
+/*sally li (jiaxuanl@bu.edu)*/
 
 #block1 {
     margin: 2%;
@@ -111,6 +112,7 @@ h3 {
 }
 
 /*block2: key figures*/
+/*Seunghyeok Lim, limsh@bu.edu*/
 
 .text {
     color: white;
@@ -200,6 +202,7 @@ h3 {
 }
 
 /*block3: concerts*/
+/*Seunghyeok Lim, limsh@bu.edu*/
 
 #block3 {
     margin: 2%;
@@ -234,6 +237,7 @@ h3 {
 }
 
 /*block4: editors pick*/
+/*sally li (jiaxuanl@bu.edu)*/
 
 #block4 {
     margin: 2%;
@@ -265,7 +269,8 @@ h3 {
 }
 
 footer {
-    background-color: #ffcbcb
+    background-color: #ffcbcb;
+    font-size: calc(2px + 1.5vw);
 }
 
 @media screen and (max-width: 750px) {
@@ -289,5 +294,10 @@ footer {
 
     nav li {
         padding: 1%;
+    }
+
+    .line-break {
+        display: flex;
+        flex-direction: column;
     }
 }

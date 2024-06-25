@@ -1,3 +1,5 @@
+/*sally li (jiaxuanl@bu.edu)*/
+
 * {
     margin: auto;
     box-sizing: border-box;
@@ -53,6 +55,8 @@ nav li {
     width: 80%;
     font-size: calc(2px + 1.5vw)
 }
+
+/*Seunghyeok Lim, limsh@bu.edu*/
 
 #page-wrapper {
     margin: auto;

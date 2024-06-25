@@ -1,3 +1,5 @@
+// sally li (jiaxuanl@bu.edu)
+
 new TypeIt("#type1", {
     strings: "Welcome to Late-Night Loops, your go-to for the perfect late-night tune ;)",
     speed: 50,
