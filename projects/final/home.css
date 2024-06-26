@@ -58,6 +58,10 @@ nav li {
     font-size: calc(2px + 1.5vw)
 }
 
+nav img {
+    max-width: 70%;
+}
+
 #page-wrapper {
     /*width: 80vw;*/
     margin: auto;
@@ -68,7 +72,8 @@ main {
     margin: auto;
     padding: 0 1%;
     background-color: #1679ab;
-    height: 500vh;
+    height: 100%;
+    width: 100%;
     font-size: calc(2px + 1vw);
     line-height: 1.5;
 }
@@ -107,25 +112,25 @@ main p {
 
 #pic1 {
     position: absolute;
-    top: 10vh;
-    left: 5vw;
-    rotate: 5deg;
+    top: 10%;
+    left: 5%;
+    transform: rotate(5deg);
     max-width: 5%;
 }
 
 #pic2 {
     position: absolute;
-    top: 20vh;
-    left: 8vw;
-    rotate: -10deg;
+    top: 20%;
+    left: 8%;
+    transform: rotate(-10deg);
     max-width: 5%;
 }
 
 #pic3 {
     position: absolute;
-    top: 15vh;
-    left: 14vw;
-    rotate: -7deg;
+    top: 15%;
+    left: 14%;
+    transform: rotate(-7deg);
     max-width: 5%;
 }
 
@@ -136,7 +141,7 @@ main p {
 }
 
 .tile {
-    float: left;
+    float: none;
     background: #ffb1b1;
     width: 10rem;
     margin: 0.2rem;
@@ -154,21 +159,5 @@ footer {
         display: flex;
         flex-direction: column;
         justify-content: space-between;
-    }
-
-    nav {
-        width: 100%;
-    }
-
-    main {
-        width: 100%;
-    }
-
-    nav ul {
-        flex-direction: row;
-    }
-
-    nav li {
-        padding: 1%;
     }
 }
