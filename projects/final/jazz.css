@@ -273,6 +273,25 @@ h3 {
     transform: scale(1.1);
 }
 
+/*responsive iframe*/
+
+.videos {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    padding-top: 56.25%; /* 16:9 Aspect Ratio (divide 9 by 16 = 0.5625) */
+}
+
+.responsive-iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 95%;
+    height: 95%;
+}
+
 footer {
     background-color: #ffcbcb;
     font-size: calc(2px + 1.5vw);
